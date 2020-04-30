@@ -1,0 +1,467 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		25787FEA243F8E7B0066701D /* PNConverterTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 25787FE6243F8E7B0066701D /* PNConverterTests.m */; };
+		25943E76245B030B008FF836 /* Converter.m in Sources */ = {isa = PBXBuildFile; fileRef = 25943E73245B030B008FF836 /* Converter.m */; };
+		25943E77245B030B008FF836 /* PhoneNumberConverter.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 25943E74245B030B008FF836 /* PhoneNumberConverter.pdf */; };
+		BD47B5532268ED9F0060BDF3 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BD47B5522268ED9F0060BDF3 /* AppDelegate.m */; };
+		BD47B5552268EDA10060BDF3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BD47B5542268EDA10060BDF3 /* Assets.xcassets */; };
+		BD47B5582268EDA10060BDF3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BD47B5562268EDA10060BDF3 /* LaunchScreen.storyboard */; };
+		BD47B55B2268EDA10060BDF3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BD47B55A2268EDA10060BDF3 /* main.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		25787FB6243F85B40066701D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BD47B5462268ED9F0060BDF3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BD47B54D2268ED9F0060BDF3;
+			remoteInfo = RSSchool_T4;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		25787FB1243F85B40066701D /* RSSchool_T5Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RSSchool_T5Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		25787FB5243F85B40066701D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		25787FE6243F8E7B0066701D /* PNConverterTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PNConverterTests.m; sourceTree = "<group>"; };
+		25943E73245B030B008FF836 /* Converter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Converter.m; sourceTree = "<group>"; };
+		25943E74245B030B008FF836 /* PhoneNumberConverter.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = PhoneNumberConverter.pdf; sourceTree = "<group>"; };
+		25943E75245B030B008FF836 /* Converter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Converter.h; sourceTree = "<group>"; };
+		BD47B54E2268ED9F0060BDF3 /* RSSchool_T5.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RSSchool_T5.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BD47B5512268ED9F0060BDF3 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		BD47B5522268ED9F0060BDF3 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		BD47B5542268EDA10060BDF3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BD47B5572268EDA10060BDF3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		BD47B5592268EDA10060BDF3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BD47B55A2268EDA10060BDF3 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		25787FAE243F85B40066701D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BD47B54B2268ED9F0060BDF3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		25787FB2243F85B40066701D /* RSSchool_T5Tests */ = {
+			isa = PBXGroup;
+			children = (
+				25787FE6243F8E7B0066701D /* PNConverterTests.m */,
+				25787FB5243F85B40066701D /* Info.plist */,
+			);
+			path = RSSchool_T5Tests;
+			sourceTree = "<group>";
+		};
+		25787FCD243F8E5F0066701D /* 1 */ = {
+			isa = PBXGroup;
+			children = (
+				25943E74245B030B008FF836 /* PhoneNumberConverter.pdf */,
+				25943E75245B030B008FF836 /* Converter.h */,
+				25943E73245B030B008FF836 /* Converter.m */,
+			);
+			path = 1;
+			sourceTree = "<group>";
+		};
+		BD47B5452268ED9F0060BDF3 = {
+			isa = PBXGroup;
+			children = (
+				BD47B5502268ED9F0060BDF3 /* RSSchool_T5 */,
+				25787FB2243F85B40066701D /* RSSchool_T5Tests */,
+				BD47B54F2268ED9F0060BDF3 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BD47B54F2268ED9F0060BDF3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BD47B54E2268ED9F0060BDF3 /* RSSchool_T5.app */,
+				25787FB1243F85B40066701D /* RSSchool_T5Tests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BD47B5502268ED9F0060BDF3 /* RSSchool_T5 */ = {
+			isa = PBXGroup;
+			children = (
+				25787FCD243F8E5F0066701D /* 1 */,
+				BD47B5512268ED9F0060BDF3 /* AppDelegate.h */,
+				BD47B5522268ED9F0060BDF3 /* AppDelegate.m */,
+				BD47B5542268EDA10060BDF3 /* Assets.xcassets */,
+				BD47B5562268EDA10060BDF3 /* LaunchScreen.storyboard */,
+				BD47B5592268EDA10060BDF3 /* Info.plist */,
+				BD47B55A2268EDA10060BDF3 /* main.m */,
+			);
+			path = RSSchool_T5;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		25787FB0243F85B40066701D /* RSSchool_T5Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 25787FB8243F85B40066701D /* Build configuration list for PBXNativeTarget "RSSchool_T5Tests" */;
+			buildPhases = (
+				25787FAD243F85B40066701D /* Sources */,
+				25787FAE243F85B40066701D /* Frameworks */,
+				25787FAF243F85B40066701D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				25787FB7243F85B40066701D /* PBXTargetDependency */,
+			);
+			name = RSSchool_T5Tests;
+			productName = RSSchool_T4Tests;
+			productReference = 25787FB1243F85B40066701D /* RSSchool_T5Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		BD47B54D2268ED9F0060BDF3 /* RSSchool_T5 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BD47B55E2268EDA10060BDF3 /* Build configuration list for PBXNativeTarget "RSSchool_T5" */;
+			buildPhases = (
+				BD47B54A2268ED9F0060BDF3 /* Sources */,
+				BD47B54B2268ED9F0060BDF3 /* Frameworks */,
+				BD47B54C2268ED9F0060BDF3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RSSchool_T5;
+			productName = RSSchool_T4;
+			productReference = BD47B54E2268ED9F0060BDF3 /* RSSchool_T5.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BD47B5462268ED9F0060BDF3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = iOSLab;
+				TargetAttributes = {
+					25787FB0243F85B40066701D = {
+						CreatedOnToolsVersion = 11.3.1;
+						TestTargetID = BD47B54D2268ED9F0060BDF3;
+					};
+					BD47B54D2268ED9F0060BDF3 = {
+						CreatedOnToolsVersion = 10.1;
+					};
+				};
+			};
+			buildConfigurationList = BD47B5492268ED9F0060BDF3 /* Build configuration list for PBXProject "RSSchool_T5" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BD47B5452268ED9F0060BDF3;
+			productRefGroup = BD47B54F2268ED9F0060BDF3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BD47B54D2268ED9F0060BDF3 /* RSSchool_T5 */,
+				25787FB0243F85B40066701D /* RSSchool_T5Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		25787FAF243F85B40066701D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BD47B54C2268ED9F0060BDF3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BD47B5552268EDA10060BDF3 /* Assets.xcassets in Resources */,
+				BD47B5582268EDA10060BDF3 /* LaunchScreen.storyboard in Resources */,
+				25943E77245B030B008FF836 /* PhoneNumberConverter.pdf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		25787FAD243F85B40066701D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				25787FEA243F8E7B0066701D /* PNConverterTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BD47B54A2268ED9F0060BDF3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				25943E76245B030B008FF836 /* Converter.m in Sources */,
+				BD47B55B2268EDA10060BDF3 /* main.m in Sources */,
+				BD47B5532268ED9F0060BDF3 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		25787FB7243F85B40066701D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BD47B54D2268ED9F0060BDF3 /* RSSchool_T5 */;
+			targetProxy = 25787FB6243F85B40066701D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		BD47B5562268EDA10060BDF3 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BD47B5572268EDA10060BDF3 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		25787FB9243F85B40066701D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = RSSchool_T5Tests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.rss.task.ios.RSSchool-T4Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RSSchool_T5.app/RSSchool_T5";
+			};
+			name = Debug;
+		};
+		25787FBA243F85B40066701D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = RSSchool_T5Tests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.rss.task.ios.RSSchool-T4Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RSSchool_T5.app/RSSchool_T5";
+			};
+			name = Release;
+		};
+		BD47B55C2268EDA10060BDF3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		BD47B55D2268EDA10060BDF3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BD47B55F2268EDA10060BDF3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_OBJC_ARC = NO;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = RSSchool_T5/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.rss.task.ios.RSSchool-T4";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BD47B5602268EDA10060BDF3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_OBJC_ARC = NO;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = RSSchool_T5/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.rss.task.ios.RSSchool-T4";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		25787FB8243F85B40066701D /* Build configuration list for PBXNativeTarget "RSSchool_T5Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				25787FB9243F85B40066701D /* Debug */,
+				25787FBA243F85B40066701D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BD47B5492268ED9F0060BDF3 /* Build configuration list for PBXProject "RSSchool_T5" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BD47B55C2268EDA10060BDF3 /* Debug */,
+				BD47B55D2268EDA10060BDF3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BD47B55E2268EDA10060BDF3 /* Build configuration list for PBXNativeTarget "RSSchool_T5" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BD47B55F2268EDA10060BDF3 /* Debug */,
+				BD47B5602268EDA10060BDF3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BD47B5462268ED9F0060BDF3 /* Project object */;
+}
